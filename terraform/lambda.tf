@@ -5,7 +5,7 @@
      always_run = timestamp()
    }
    provisioner "local-exec" {
-     command = "bash ${path.module}./scripts/create_pkg.sh"
+     command = "bash ${path.module}./scripts/create_pkg.sh" #this locates the scripts folder in the upper folder directory ../scripts
 
 
      environment = {
