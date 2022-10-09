@@ -7,7 +7,7 @@ mkdir $package_directory/
 rm -rf $package_directory/*
 
 #install dependencies in package directory
-pip install -r ./$source_code_dir/requirements.txt --target ./$package_directory
+pip install -r ../$source_code_dir/requirements.txt --target ./$package_directory
 
 #copy source code to package directory
-cp -r ./$source_code_dir/* ./$package_directory
+cp -r ../$source_code_dir/* ./$package_directory
