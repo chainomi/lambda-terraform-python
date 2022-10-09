@@ -1,5 +1,12 @@
 # Python app with dependencies deployed via Terraform
 
+## Requirements
+1. Python 3
+2. PIP
+3. Terraform
+
+
+
 ## Notes for `terraform/env/dev.tfvars`
 1. Adjust `code_directory` paramter to the folder with the python code
 2. Adjust `function_name` parameter to desired name of function
