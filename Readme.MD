@@ -1,6 +1,11 @@
 # Python app with dependencies deployed via Terraform
-1. Adjust terraform/env/dev.tfvars to your liking
-2. 
+
+## Notes for `terraform/env/dev.tfvars`
+1. Adjust `code_directory` paramter to the folder with the python code
+2. Adjust `function_name` parameter to desired name of function
+3. Adjust `handler` parameter according to name of python file and function in python file e.g. <file_name_without_extension>.<name_of_function>
+
+
 ## Commands
 1. `cd terraform`
 2. `terraform init`
